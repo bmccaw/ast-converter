@@ -4198,6 +4198,18 @@ dotenv@8.2.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
+draft-js-ast-exporter@^2.0.2:
+  version "2.0.2"
+  resolved "https://repo.forge.lmig.com/api/npm/npm/draft-js-ast-exporter/-/draft-js-ast-exporter-2.0.2.tgz#0e7c15274074e4ec1146ac42e8235db98c5fd5eb"
+  integrity sha1-DnwVJ0B05OwRRqxC6CNduYxf1es=
+  dependencies:
+    draft-js-utils "^1.4.0"
+
+draft-js-utils@^1.4.0:
+  version "1.4.0"
+  resolved "https://repo.forge.lmig.com/api/npm/npm/draft-js-utils/-/draft-js-utils-1.4.0.tgz#c60af198108f69b0f1df3572555b23836819d1cf"
+  integrity sha1-xgrxmBCPabDx3zVyVVsjg2gZ0c8=
+
 draft-js@^0.11.7:
   version "0.11.7"
   resolved "https://repo.forge.lmig.com/api/npm/npm/draft-js/-/draft-js-0.11.7.tgz#be293aaa255c46d8a6647f3860aa4c178484a206"

@@ -1,10 +1,20 @@
 .App {
-  text-align: center;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.code-block {
+  margin-left: 24px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,10 +36,6 @@
   text-align: center;
 }
 
-.wrapper-class {
-  padding: 1rem;
-  border: 1px solid #ccc;
-}
 .editor-class {
   background-color:lightgray;
   padding: 1rem;
