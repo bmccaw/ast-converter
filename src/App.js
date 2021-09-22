@@ -10,7 +10,7 @@ const App = () => {
   const [editorState, setEditorState] = useState(() => EditorState.createEmpty())
 
   const ast = exporter(editorState)
-  
+
   return (
     <div className="App">
       <div className="column">
